@@ -1,1 +1,21 @@
 https://github.com/777genius/claude-code-source-code?tab=readme-ov-file
+
+Next Level (important for you)
+
+Since you're building a Claude/GPT clone, your repo should NOT be nested repos.
+
+Instead structure like:
+
+claude-clone/
+ ├── model/
+ ├── tokenizer/
+ ├── training/
+ ├── inference/
+ ├── eval/
+ ├── infra/
+ └── docs/
+
+If you want, I can:
+
+cleanly restructure your repo into production-grade LLM architecture
+or map your current folders into OpenAI/Anthropic-style system design
